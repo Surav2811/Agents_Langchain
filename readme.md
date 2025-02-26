@@ -19,3 +19,7 @@ response = openai.chat.completions.create(
  messages=[{"role": "user", "content": "What is 2 + 2?"}]
 )
 print(response.choices[0].message.content)
+
+
+
+2. Added the Agent functionality to have RAG chat with any website. Populate the website you want the info about.
